@@ -12,7 +12,8 @@ var radio: Double = 0.0
 
 radio = diametro / 2
 
-radio```
+radio
+```
 
 # Exercise 2
 This code shows if a number is prime or it isn't 
@@ -32,7 +33,8 @@ if (primo == true){
     println("Es primo")
 }else{
     println("No es primo")
-}```
+}
+```
 
 # Exercise 3
 This code prints the phrase "Estoy escribiendo un tweet"
@@ -42,7 +44,8 @@ This code prints the phrase "Estoy escribiendo un tweet"
 //   imprimir "Estoy ecribiendo un tweet"
 
 var bird: String = "tweet"
-println(s"Estoy escribiendo un ${bird}")```
+println(s"Estoy escribiendo un ${bird}")
+```
 
 # Exercise 4
 We need to split the string and just show the word "Luke"
@@ -52,14 +55,16 @@ We need to split the string and just show the word "Luke"
 
 var mensaje: String = "Hola Luke yo soy tu padre!"
 
-mensaje.slice(5, 9)```
+mensaje.slice(5, 9)
+```
 
 # Exercise 5
 This is not code exactly, we just define a question in a scala comment
 ``` scala
 //5. Cual es la diferencia entre value y una variable en scala?
 //Val sólo permite el valor especificado, no puede ser cambiado, 
-//en cambio, Var es mutable, puede ser modificado durante el proceso ```
+//en cambio, Var es mutable, puede ser modificado durante el proceso 
+```
 
 # Exercise 6
 In this code we returned the value specified at the given tuple
@@ -67,5 +72,5 @@ In this code we returned the value specified at the given tuple
 ``` scala
 //6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el numero 3.1416
 val tupla = (2,4,5,1,2,3,3.1416,23)
-tupla._7```
-
+tupla._7
+```
