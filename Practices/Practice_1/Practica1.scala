@@ -29,7 +29,7 @@ if (primo == true){
 //   imprimir "Estoy ecribiendo un tweet"
 
 var bird: String = "tweet"
-println("Estoy escribiendo un ", bird)
+println("Estoy escribiendo un ${bird}")
 
 //4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slilce para extraer la
 //   secuencia "Luke"
