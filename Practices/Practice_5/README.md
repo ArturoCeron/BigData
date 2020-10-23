@@ -117,4 +117,5 @@ df.groupBy("clarity")
 
 scala> df.distinct()
 res8: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] = 
+
 [carat: string, clarity: string ... 1 more field]
