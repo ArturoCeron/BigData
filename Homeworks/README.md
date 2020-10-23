@@ -7,8 +7,12 @@ In these cases (and in many others) it is not convenient to use Pearson's correl
 The Pearson correlation coefficient is an index that is easy to perform and also easy to interpret. 
 Let's say, in the first instance, that its absolute values oscillate between 0 and 1. 
 That is, if we have two variables X and Y, and we define the Pearson correlation coefficient between these two variables as rxy then:
+  
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Unidad_1/Homeworks/form1.PNG">
+</p>
 
-![coeficiente](https://github.com/ArturoCeron/BigData/blob/Unidad_1/Homeworks/form1.PNG)
+
 
 <div align="justify"> We have specified the terms "absolute values" since, in reality, if the sign is considered, the Pearson correlation coefficient oscillates between –1 and +1. 
 However, it should be noted that the magnitude of the relationship is specified by the numerical value of the coefficient, the sign reflecting the direction of such value. 
@@ -20,7 +24,9 @@ It is said that the relationship is perfect negative when exactly as one variabl
 
 Pearson's correlation coefficient is defined by the following expression:
 
-![coeficiente2](https://github.com/ArturoCeron/BigData/blob/Unidad_1/Homeworks/form2.PNG)
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Unidad_1/Homeworks/form2.PNG">
+</p>
 
 That is, the Pearson correlation coefficient refers to the mean of the cross products of the standardized scores of X and Y. 
 This formula has some properties that make it preferable to others. To operate with standardized scores is a scale-free index of measurement. 
