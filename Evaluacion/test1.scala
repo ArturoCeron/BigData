@@ -62,6 +62,6 @@ dfMaximos.select($"Anio", $"max(High)").show()
 //e. ¿Cuál es el promedio de columna “Close” para cada mes del calendario?
 val colMes = df.withColumn("Mes", month(df("Date")))
 
-val dfProm = colMes.groupBy("Mes").mean()
+val dfProm = colMes.groupBy("Mes").mean() 
 
 dfProm.select($"Mes", $"avg(Close)").show()
