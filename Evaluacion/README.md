@@ -83,7 +83,7 @@ In order to solve this we needed a filter function, in which we used a simply "<
 //dataframe para contestar algunos de los incisos.
 
 //a. ¿Cuántos días fue la columna “Close” inferior a $ 600?
-df.filter($"Close" < 600).count()
+df.filter($"Close" < 600).count() 
 ```
 ## This question was about the percentage of time that the column High was higher than $500
 First we created a variable that contains the amount of days that the column was higher than 500 and then we converted 
