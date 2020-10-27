@@ -2,37 +2,52 @@
 
 # Answer the following questions with Spark DataFrames using the file "Netflix_2011_2016.csv."
 
+## 1.- Start a simple spark session
+In order to star our test we need to create our spark session, first of all we need to import the library "SparkSession" and then we create our variable spark with the next code
+
 ``` scala
 import org.apache.spark.sql.SparkSession
 
 //1. Comienza una simple sesión Spark.
 val spark = SparkSession.builder().getOrCreate()
 ``` 
+## 2.- Load the file "Netflix Stock CSV", make spark infer the data types
+To load the csv file we need to use "spark.read" and to infer the data types we use ".option("inferSchema,"true")", then we use "csv" and the path of the file we are loading
 
 ``` scala
 //2. Cargue el archivo Netflix Stock CSV, haga que Spark infiera los tipos de datos.
 val df = spark.read.option("header", "true").option("inferSchema","true")csv("Spark_DataFrame/Netflix_2011_2016.csv")
 ```
+## 3.- What are the names of the columns?
+To show the column names we simply use "df.column", this prints the names we need
 
 ``` scala
 //3. ¿Cuáles son los nombres de las columnas?
 df.columns
 ```
+## 4.- How is the schema?
+To print the schema we use "printSchema()", this function will show us the info we require
 
 ``` scala
 //4. ¿Cómo es el esquema?
 df.printSchema()
 ```
+## 5.- Print the first 5 columns
+The simplest way we thought to show the first 5 columns was to drop the last 2 of them and then print the rest
 
 ``` scala
 //5. Imprime las primeras 5 columnas.
 df.drop("Volume", "Adj Close").show()
 ```
+## 6.- Use "describe()" to learn about the dataframe
+We just call the function "describe()" here
 
 ``` scala
 //6. Usa describe () para aprender sobre el DataFrame.
 df.describe()
 ```
+## 7.- Create a new dataframe with a new column "HV Ratio" which is the relationship between the column "High" and the column "Volume"
+To create a new column we use "withColumn", the parameters we need are the name of the new column and the value, first we put the name and for the values we just divided the values of the column "High" over the values of "Volume"
 
 ``` scala
 //7. Crea un nuevo dataframe con una columna nueva llamada “HV Ratio” que es la
