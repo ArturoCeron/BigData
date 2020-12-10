@@ -27,5 +27,5 @@ object CorrelationExample {
     println(s"Spearman correlation matrix:\n $coeff2")
 
     spark.stop()
-  }
+  } 
 }
