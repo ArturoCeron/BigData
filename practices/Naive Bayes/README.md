@@ -26,7 +26,7 @@ predictions.show()
 ```
 
 Select (prediction, true label) and calculate test errors
-
+```scala
 val evaluator = new MulticlassClassificationEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("accuracy")
 
 val accuracy = evaluator.evaluate(predictions)
