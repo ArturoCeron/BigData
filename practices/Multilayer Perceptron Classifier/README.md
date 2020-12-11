@@ -9,9 +9,8 @@ Spark session is imported
 ```scala
 import org.apache.spark.sql.SparkSession
 ```
-/**
- * An example for Multilayer Perceptron Classification.
- */
+
+An example for Multilayer Perceptron Classification.
 
 Creation of the MultilayerPerceptronClassifier object
 ```scala
