@@ -1,4 +1,4 @@
-LINEAR REGRESSION EXERCISE
+ LINEAR REGRESSION EXERCISE
 
 Complete commented tasks
 
@@ -44,9 +44,8 @@ for(ind <- Range(1, colnames.length)){
 }
 ```
 
-//////////////////////////////////////////////////////
-//// Configure el DataFrame para Machine Learning ////
-//////////////////////////////////////////////////////
+
+   Configure el DataFrame para Machine Learning
 
 Transform the data frame to take the form of
 ("label","features")
