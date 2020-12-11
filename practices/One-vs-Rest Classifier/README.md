@@ -1,5 +1,8 @@
+Importing this libraries is required in order to get the example done.
+```scala
 import org.apache.spark.ml.classification.{LogisticRegression, OneVsRest}
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
+```
 
 Upload data file.
 ```scala
