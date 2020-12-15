@@ -59,3 +59,6 @@ println(s"\n\nWithin set sum of Squared Errors = $WSSE\n\n")
 println("Cluster Centers: ")
 model.clusterCenters.foreach(println)
 ```
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Unidad_1/Homeworks/form1.PN">
+</p>
