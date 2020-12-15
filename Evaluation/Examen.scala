@@ -28,7 +28,6 @@ val assembler = new VectorAssembler().setInputCols(Array("Fresh", "Milk", "Groce
 
 //Use the object assembler to transform feature_data
 val features = assembler.transform(feature_data)
-features.show()
 
 //Create the kmean model with k = 3
 val kmeans = new KMeans().setK(3).setSeed(1L)
