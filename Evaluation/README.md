@@ -1,4 +1,4 @@
-Import a simple spark 
+Import a simple spark session
 ```scala
 import org.apache.spark.sql.SparkSession
 ```
