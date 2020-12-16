@@ -14,3 +14,8 @@ and this will be the number of valid cluster for given data set.
 <p align="center">
 <img src="https://github.com/ArturoCeron/BigData/blob/Unidad_3/Investigation/elbowMethod2.PNG">
 </p>
+
+
+## References
+
+[Elbow Method](https://medium.com/@mudgalvivek2911/machine-learning-clustering-elbow-method-4e8c2b404a5d)
