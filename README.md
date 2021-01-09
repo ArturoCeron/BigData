@@ -41,7 +41,7 @@ Tijuana, Baja California, al 07 de enero de 2021.
 
 # Indice
 
-## - Introduccion
+### - Introduccion
 ## - Marco teorico de los algoritmos
 ## - SVM
 ## - Decision Three
