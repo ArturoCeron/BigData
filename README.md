@@ -44,7 +44,7 @@ Tijuana, Baja California, al 07 de enero de 2021.
 ### - Introduccion
 ### - Marco teorico de los algoritmos
 ### - SVM
-###- Decision Three
+### - Decision Three
 ### - Logistic Regresion
 ### - Multilayer perceptron
 ### - Implementacion (Que herramientas usaron y porque (en este caso spark con scala))
@@ -71,6 +71,7 @@ Las máquinas de vectores de soporte pertenecen a una clase de algoritmos de Mac
 El entrenamiento de una máquina de vectores de soporte consta de dos fases:
 1.- Transformar los predictores (datos de entrada) en un espacio de características altamente dimensional. En esta fase es suficiente con especificar el kernel; los datos nunca se transforman explícitamente al espacio de características. Este proceso se conoce comúnmente como el truco kernel.
 2.- Resolver un problema de optimización cuadrática que se ajuste a un hiperplano óptimo para clasificar las características transformadas en dos clases. El número de características transformadas está determinado por el número de vectores de soporte.[1]
+https://www.iartificial.net/wp-content/uploads/2019/04/Mala_Clasificacion_1.webp
 
 ## *Decision Three
 En el análisis de decisiones, se puede utilizar un árbol de decisiones para representar de forma visual y explícita las decisiones y la toma de decisiones. Como dice su nombre, utiliza un modelo de decisiones en forma de árbol. Aunque es una herramienta de uso común en la minería de datos para derivar una estrategia para alcanzar un objetivo en particular, también se usa ampliamente en el aprendizaje automático.
