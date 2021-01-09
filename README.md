@@ -39,21 +39,21 @@ Tijuana, Baja California, al 07 de enero de 2021.
  
 </div>
 
-## Indice
+# Indice
 
-#- Introduccion
-#- Marco teorico de los algoritmos
-# - SVM
-# - Decision Three
- #- Logistic Regresion
-# - Multilayer perceptron
-#- Implementacion (Que herramientas usaron y porque (en este caso spark con scala))
-#- Resultados (Un tabular con los datos por cada algoritmo para ver su preformance)y su respectiva explicacion.
-#- Conclusiones
-#- Referencias (No wikipedia por ningun motivo, traten que sean de articulos cientificos)El documento debe estar referenciado 
+## - Introduccion
+## - Marco teorico de los algoritmos
+## - SVM
+## - Decision Three
+## - Logistic Regresion
+## - Multilayer perceptron
+## - Implementacion (Que herramientas usaron y porque (en este caso spark con scala))
+## - Resultados (Un tabular con los datos por cada algoritmo para ver su preformance)y su respectiva explicacion.
+## - Conclusiones
+## - Referencias (No wikipedia por ningun motivo, traten que sean de articulos cientificos)El documento debe estar referenciado 
 
 
-## Introducción
+# Introducción
 
 En el presente documento se especifica el análisis y desarrollo del proyecto final de la unidad 4 de la materia de datos masivos, el cual el objetivo de este proyecto final es comparar los algoritmos de rendimiento de Machine Learning que se vieron durante el semestre, el cual se va a utilizar el conjunto de datos de Marketing bancario que se obtuvo en la siguiente fuente : https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 Se explica la implementación de dichos algoritmos, así como al resultado al cual se llegó, a través de una tabulación para visualizar de mejor manera su rendimiento de cada uno de ellos.
