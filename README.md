@@ -15,20 +15,16 @@ INGENIERÍA EN SISTEMAS COMPUTACIONALES
  
  [![](https://upload.wikimedia.org/wikipedia/commons/2/2e/ITT.jpg)](https://upload.wikimedia.org/wikipedia/commons/2/2e/ITT.jpg)
 
-**PROFESOR**
-
 JOSÉ CHRISTIAN ROMERO HERNÁNDEZ
-
-**CLASE**
 
 DATOS MASIVOS
 BDD-1704 SC9A, L - V 18:00 - 19:00 (91L4/0308)
 
 
-**PROYECTO FINAL**
+**FINAL PROJECT**
 
 
-**NOMBRE DE LOS ALUMNOS:**
+**STUDENTS**
 
 BERNARDINO MARTINEZ JERONIMO 14212334
 
@@ -39,29 +35,29 @@ Tijuana, Baja California, al 07 de enero de 2021.
  
 </div>
 
-# Indice
+# Index
 
-### - Introduccion
-### - Marco teorico de los algoritmos
-### - SVM
-### - Decision Three
-### - Logistic Regresion
-### - Multilayer perceptron
-### - Implementacion (Que herramientas usaron y porque (en este caso spark con scala))
-### - Resultados (Un tabular con los datos por cada algoritmo para ver su preformance)y su respectiva explicacion.
-### - Conclusiones
-### - Referencias (No wikipedia por ningun motivo, traten que sean de articulos cientificos)El documento debe estar referenciado 
+### - Introduction
+### - Algorithms used
+### - Implementation
+### - Results 
+### - Conclusions
+### - References
 
 
-# Introducción
+# Introduction
 
-En el presente documento se especifica el análisis y desarrollo del proyecto final de la unidad 4 de la materia de datos masivos, el cual el objetivo de este proyecto final es comparar los algoritmos de rendimiento de Machine Learning que se vieron durante el semestre, el cual se va a utilizar el conjunto de datos de Marketing bancario que se obtuvo en la siguiente fuente : https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
-Se explica la implementación de dichos algoritmos, así como al resultado al cual se llegó, a través de una tabulación para visualizar de mejor manera su rendimiento de cada uno de ellos.
+<div align="justify">This document specifies the analysis and development of the final project of unit 4 of the matter of big data, which the objective of this final project is to compare the Machine Learning performance algorithms that were seen during the semester.
+The Bank Marketing data set obtained from the following source will be used
+<div align="center"> https://archive.ics.uci.edu/ml/datasets/Bank+Marketing </div>
+The implementation of these algorithms is explained, as well as the result that was reached, through a tabulation to better visualize the performance of each one of them.
+</div>
 
 
-# Marco teorico de los algoritmos
 
-## *SVM - Support Vector Machines
+# Algorithms used
+
+## SVM - Support Vector Machines
 Una máquina de vectores de soporte (SVM) es un algoritmo de aprendizaje supervisado que se puede emplear para clasificación binaria o regresión. Las máquinas de vectores de soporte son muy populares en aplicaciones como el procesamiento del lenguaje natural, el habla, el reconocimiento de imágenes y la visión artificial.
 
 Una máquina de vectores de soporte construye un hiperplano óptimo en forma de superficie de decisión, de modo que el margen de separación entre las dos clases en los datos se amplía al máximo. Los vectores de soporte hacen referencia a un pequeño subconjunto de las observaciones de entrenamiento que se utilizan como soporte para la ubicación óptima de la superficie de decisión.
@@ -73,13 +69,13 @@ El entrenamiento de una máquina de vectores de soporte consta de dos fases:
 2.- Resolver un problema de optimización cuadrática que se ajuste a un hiperplano óptimo para clasificar las características transformadas en dos clases. El número de características transformadas está determinado por el número de vectores de soporte.[1]
 https://www.iartificial.net/wp-content/uploads/2019/04/Mala_Clasificacion_1.webp
 
-## *Decision Three
+## DTC - Decision Three
 En el análisis de decisiones, se puede utilizar un árbol de decisiones para representar de forma visual y explícita las decisiones y la toma de decisiones. Como dice su nombre, utiliza un modelo de decisiones en forma de árbol. Aunque es una herramienta de uso común en la minería de datos para derivar una estrategia para alcanzar un objetivo en particular, también se usa ampliamente en el aprendizaje automático.
 Un árbol de decisiones se dibuja al revés con su raíz en la parte superior. En la imagen de la izquierda, el texto en negrita en negro representa una condición / nodo interno , según el cual el árbol se divide en ramas / bordes . El final de la rama que ya no se divide es la decisión / hoja , en este caso, si el pasajero murió o sobrevivió, representado como texto rojo y verde respectivamente.
 Es un clasificador estructurado en árbol, donde los nodos internos representan las características de un conjunto de datos, las ramas representan las reglas de decisión y cada nodo hoja representa el resultado.
 En un árbol de decisión, hay dos nodos, que son el nodo de decisión y el nodo hoja. Los nodos de decisión se utilizan para tomar cualquier decisión y tienen múltiples ramas, mientras que los nodos hoja son el resultado de esas decisiones y no contienen más ramas. Las decisiones o la prueba se realizan sobre la base de las características del conjunto de datos dado. [2]
 
-## *Logistic regression
+## LR - Logistic regression
 
 La regresión logística o Logistic Regression es un algoritmo de clasificación que se utiliza para predecir la probabilidad de una variable dependiente categórica. En la regresión logística, la variable dependiente es una variable binaria que contiene datos codificados como 1 – 0, sí – no, abierto – cerrado, etc.
 
@@ -103,7 +99,7 @@ Eliminar entradas correlacionadas. Al igual que la regresión lineal, el modelo 
 
 No se puede converger. Es posible que el proceso de estimación de probabilidad esperado aprenda que los coeficientes no convergen, esto puede suceder si hay muchas entradas altamente correlacionadas en sus datos o si los datos son muy escasos.[3]
 
-## *Multilayer Perceptron
+## MLPC - Multilayer Perceptron Classifier
 El perceptrón multicapa (MLP) es un complemento de la red neuronal de avance. Consta de tres tipos de capas: la capa de entrada, la capa de salida y la capa oculta, como se muestra en la figura. La capa de entrada recibe la señal de entrada para ser procesada. La tarea requerida, como la predicción y la clasificación, la realiza la capa de salida. Un número arbitrario de capas ocultas que se colocan entre la capa de entrada y la de salida son el verdadero motor computacional del MLP. De manera similar a una red de alimentación hacia adelante en un MLP, los datos fluyen en la dirección hacia adelante desde la capa de entrada a la de salida. Las neuronas del MLP se entrenan con el algoritmo de aprendizaje de retropropagación. Los MLP están diseñados para aproximarse a cualquier función continua y pueden resolver problemas que no son separables linealmente. Los principales casos de uso de MLP son la clasificación, el reconocimiento, la predicción y la aproximación de patrones.
 
 Los perceptrones multicapa a menudo se aplican a problemas de aprendizaje supervisado : se entrenan en un conjunto de pares de entrada-salida y aprenden a modelar la correlación (o dependencias) entre esas entradas y salidas. El entrenamiento implica ajustar los parámetros, o las ponderaciones y sesgos, del modelo para minimizar el error.
@@ -114,7 +110,7 @@ Se caracteriza por tener salidas disjuntas pero relacionadas entre sí, de tal m
 En el perceptrón multicapa se pueden diferenciar una 2 fases:
 
 Propagación en la que se calcula el resultado de salida de la red desde los valores de entrada hacia delante.
-Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red se asemeje cada vez más al real, este aproximación se realiza mediante la función gradriente del error.[4]
+Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red se asemeje cada vez más al real, este aproximación se realiza mediante la función gradriente del error. [4]
 
 
 
