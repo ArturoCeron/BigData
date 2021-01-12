@@ -59,11 +59,14 @@ The implementation of these algorithms is explained, as well as the result that 
 
 ## SVM - Support Vector Machines
 <div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
+ 
 A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
 Support vector machines belong to a class of Machine Learning algorithms called kernel methods and are also known as kernel machines.
 Support vector machine training consists of two phases
+ 
 * Transform the predictors (input data) into a highly dimensional feature space. In this phase it is enough to specify the kernel; data is never explicitly transformed into feature space. This process is commonly known as the kernel hack.
 * Solve a quadratic optimization problem that fits an optimal hyperplane to classify the transformed characteristics into two classes. The number of transformed features is determined by the number of support vectors. [1]
+
 </div>
 
 
