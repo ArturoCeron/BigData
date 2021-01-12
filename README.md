@@ -58,60 +58,60 @@ The implementation of these algorithms is explained, as well as the result that 
 # Algorithms used
 
 ## SVM - Support Vector Machines
-Una máquina de vectores de soporte (SVM) es un algoritmo de aprendizaje supervisado que se puede emplear para clasificación binaria o regresión. Las máquinas de vectores de soporte son muy populares en aplicaciones como el procesamiento del lenguaje natural, el habla, el reconocimiento de imágenes y la visión artificial.
+A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
+A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
+Support vector machines belong to a class of Machine Learning algorithms called kernel methods and are also known as kernel machines.
+Support vector machine training consists of two phases
+* Transform the predictors (input data) into a highly dimensional feature space. In this phase it is enough to specify the kernel; data is never explicitly transformed into feature space. This process is commonly known as the kernel hack.
+* Solve a quadratic optimization problem that fits an optimal hyperplane to classify the transformed characteristics into two classes. The number of transformed features is determined by the number of support vectors. [1]
 
-Una máquina de vectores de soporte construye un hiperplano óptimo en forma de superficie de decisión, de modo que el margen de separación entre las dos clases en los datos se amplía al máximo. Los vectores de soporte hacen referencia a un pequeño subconjunto de las observaciones de entrenamiento que se utilizan como soporte para la ubicación óptima de la superficie de decisión.
 
-Las máquinas de vectores de soporte pertenecen a una clase de algoritmos de Machine Learning denominados métodos kernel y también se conocen como máquinas kernel.
-
-El entrenamiento de una máquina de vectores de soporte consta de dos fases:
-1.- Transformar los predictores (datos de entrada) en un espacio de características altamente dimensional. En esta fase es suficiente con especificar el kernel; los datos nunca se transforman explícitamente al espacio de características. Este proceso se conoce comúnmente como el truco kernel.
-2.- Resolver un problema de optimización cuadrática que se ajuste a un hiperplano óptimo para clasificar las características transformadas en dos clases. El número de características transformadas está determinado por el número de vectores de soporte.[1]
-https://www.iartificial.net/wp-content/uploads/2019/04/Mala_Clasificacion_1.webp
-
-## DTC - Decision Three
-En el análisis de decisiones, se puede utilizar un árbol de decisiones para representar de forma visual y explícita las decisiones y la toma de decisiones. Como dice su nombre, utiliza un modelo de decisiones en forma de árbol. Aunque es una herramienta de uso común en la minería de datos para derivar una estrategia para alcanzar un objetivo en particular, también se usa ampliamente en el aprendizaje automático.
-Un árbol de decisiones se dibuja al revés con su raíz en la parte superior. En la imagen de la izquierda, el texto en negrita en negro representa una condición / nodo interno , según el cual el árbol se divide en ramas / bordes . El final de la rama que ya no se divide es la decisión / hoja , en este caso, si el pasajero murió o sobrevivió, representado como texto rojo y verde respectivamente.
-Es un clasificador estructurado en árbol, donde los nodos internos representan las características de un conjunto de datos, las ramas representan las reglas de decisión y cada nodo hoja representa el resultado.
-En un árbol de decisión, hay dos nodos, que son el nodo de decisión y el nodo hoja. Los nodos de decisión se utilizan para tomar cualquier decisión y tienen múltiples ramas, mientras que los nodos hoja son el resultado de esas decisiones y no contienen más ramas. Las decisiones o la prueba se realizan sobre la base de las características del conjunto de datos dado. [2]
+## DTC - Decision Tree Classifier
+In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. As its name implies, it uses a decision model in the form of a tree.
+Although it is a commonly used tool in data mining to derive a strategy to reach a particular goal, it is also widely used in machine learning. A decision tree is drawn upside down with its root at the top. In the image to the left, the bold black text represents an internal node / condition, according to which the tree is divided into branches / edges.
+The end of the branch that is no longer divided is the decision / leaf, in this case, whether the passenger died or survived, represented as red and green text respectively. It is a tree-structured classifier, where the internal nodes represent the characteristics of a data set, the branches represent the decision rules, and each leaf node represents the result.
+In a decision tree, there are two nodes, which are the decision node and the leaf node. Decision nodes are used to make any decision and have multiple branches, while leaf nodes are the result of those decisions and contain no more branches. Decisions or testing are made based on the characteristics of the given data set. [2]
 
 ## LR - Logistic regression
 
-La regresión logística o Logistic Regression es un algoritmo de clasificación que se utiliza para predecir la probabilidad de una variable dependiente categórica. En la regresión logística, la variable dependiente es una variable binaria que contiene datos codificados como 1 – 0, sí – no, abierto – cerrado, etc.
+Logistic Regression or Logistic Regression is a classification algorithm used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 - 0, yes - no, open - closed, etc.
 
-Este modelo logístico binario se utiliza para estimar la probabilidad de una respuesta binaria basada en una o más variables predictoras o independientes. Permite decir que la presencia de un factor de riesgo aumenta la probabilidad de un resultado dado un porcentaje específico.
+This binary logistic model is used to estimate the probability of a binary response based on one or more predictor or independent variables. Lets say that the presence of a risk factor increases the probability of a given result by a specific percentage.
 
-Como todos los análisis de regresión, la regresión logística es un análisis predictivo. Se usa para describir datos y explicar la relación entre una variable binaria dependiente y una o más variables independientes nominales, ordinales, de intervalo o de nivel de razón.
+Like all regression analyzes, logistic regression is a predictive analysis. It is used to describe data and explain the relationship between a dependent binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables.
+Logistic regression requires fairly large sample sizes.
+The reason why logistic regression is widely used, despite advanced algorithms like deep neural networks, is because it is very efficient and does not require too many computational resources that make it affordable to run production.
 
-La regresión logística requiere tamaños de muestra bastante grandes.
+Some of the characteristics that you should consider for this algorithm are the following
 
-La razón por la cual la regresión logística es ampliamente utilizada, a pesar de los algoritmos avanzados como redes neuronales profunda, es porque es muy eficiente y no requiere demasiados recursos computacionales que hacen que sea asequibles ejecutar la producción.
+* Binary output variable. This may be obvious, but logistic regression is intended for binary (two-class) classification problems. It will predict the probability that an instance belongs to the default class, which can be divided into a classification of 0 or 1.
+* Eliminate noise. The logistic regression does not assume any error in the output variable (y). Consider removing outliers and possibly the highest ranked instances of your training data.
+* Gaussian distribution. Logistic regression is a linear algorithm, with a non-linear transformation at the output. Data transformations of your input variables that better expose this linear relationship can result in a more accurate model.
+* Remove correlated entries. Like linear regression, the model can be overfitted if it has multiple highly correlated inputs. Let's consider calculating the pairwise correlations between all inputs and eliminating highly correlated inputs.
 
-Algunas de las características que debes considerar para este algoritmo son las siguientes:
-
-Variable de salida binaria. Esto puede ser obvio, pero la regresión logística está destinada a problemas de clasificación binarios (dos clases). Predicará la probabilidad de que una instancia pertenezca a la clase predeterminada, que puede dividirse en una clasificación 0 ó 1.
-
-Eliminar ruido. La regresión logística no asume ningún error en la variable de salida (y). Considera la eliminación de los valores atípicos y posiblemente las instancias más clasificadas de sus datos de entrenamiento.
-
-Distribución gaussiana. La regresión logística es un algoritmo lineal, con una transformación no lineal en la salida. Las transformaciones de datos de sus variables de entrada que exponen mejor esta relación lineal pueden dar como resultado un modelo más preciso.
-
-Eliminar entradas correlacionadas. Al igual que la regresión lineal, el modelo puede sobreajustarse si tiene múltiples entradas altamente correlacionadas. Consideremos calcular las correlaciones por pares entre todas las entradas y eliminar las entradas altamente correlacionadas.
-
-No se puede converger. Es posible que el proceso de estimación de probabilidad esperado aprenda que los coeficientes no convergen, esto puede suceder si hay muchas entradas altamente correlacionadas en sus datos o si los datos son muy escasos.[3]
+It cannot converge. The expected probability estimation process may learn that the coefficients do not converge, this can happen if there are many highly correlated entries in your data, or if the data is very sparse. [3]
 
 ## MLPC - Multilayer Perceptron Classifier
-El perceptrón multicapa (MLP) es un complemento de la red neuronal de avance. Consta de tres tipos de capas: la capa de entrada, la capa de salida y la capa oculta, como se muestra en la figura. La capa de entrada recibe la señal de entrada para ser procesada. La tarea requerida, como la predicción y la clasificación, la realiza la capa de salida. Un número arbitrario de capas ocultas que se colocan entre la capa de entrada y la de salida son el verdadero motor computacional del MLP. De manera similar a una red de alimentación hacia adelante en un MLP, los datos fluyen en la dirección hacia adelante desde la capa de entrada a la de salida. Las neuronas del MLP se entrenan con el algoritmo de aprendizaje de retropropagación. Los MLP están diseñados para aproximarse a cualquier función continua y pueden resolver problemas que no son separables linealmente. Los principales casos de uso de MLP son la clasificación, el reconocimiento, la predicción y la aproximación de patrones.
+A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
 
-Los perceptrones multicapa a menudo se aplican a problemas de aprendizaje supervisado : se entrenan en un conjunto de pares de entrada-salida y aprenden a modelar la correlación (o dependencias) entre esas entradas y salidas. El entrenamiento implica ajustar los parámetros, o las ponderaciones y sesgos, del modelo para minimizar el error.
+Multilayer perceptrons are often applied to supervised learning problems: they train on a set of input-output pairs and learn to model the correlation (or dependencies) between those inputs and outputs. Training involves adjusting the parameters, or the weights and biases, of the model in order to minimize error. Backpropagation is used to make those weigh and bias adjustments relative to the error, and the error itself can be measured in a variety of ways, including by root mean squared error (RMSE). 
 
-El percetrón multicapa evoluciona el perceptrón simple y para ello incorpora capas de neuronas ocultas, con esto consigue representar funciones no lineales.
-El perceptrón multicapa esta compuesto por por una capa de entrada, una capa de salida y n capas ocultas entremedias.
-Se caracteriza por tener salidas disjuntas pero relacionadas entre sí, de tal manera que la salida de una neurona es la entrada de la siguiente.
-En el perceptrón multicapa se pueden diferenciar una 2 fases:
+In the forward pass, the signal flow moves from the input layer through the hidden layers to the output layer, and the decision of the output layer is measured against the ground truth labels.
 
-Propagación en la que se calcula el resultado de salida de la red desde los valores de entrada hacia delante.
-Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red se asemeje cada vez más al real, este aproximación se realiza mediante la función gradriente del error. [4]
+In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function w.r.t. the various weights and biases are back-propagated through the MLP. That act of differentiation gives us a gradient, or a landscape of error, along which the parameters may be adjusted as they move the MLP one step closer to the error minimum. This can be done with any gradient-based optimisation algorithm such as stochastic gradient descent. The network keeps playing that game of tennis until the error can go no lower. This state is known as convergence. [4]
 
+# References
 
+[1] JavaTpoint. (2018). Support Vector Machine Algorithm. 23/12/2020, de JavaTpoint Sitio web: 
+https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
+
+[2] JavaTpoint. (2018). Decision Tree Classification Algorithm. 23/12/2020, de JavaTpoint Sitio web: 
+https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm
+
+[3] Selva Prabhakaran. Logistic Regression – A Complete Tutorial With Examples in R. 23/12/2020, de machine learning plus Sitio web: 
+https://www.machinelearningplus.com/machine-learning/logistic-regression-tutorial-examples-r/
+
+[8] Chris Nicholson. A Beginner's Guide to Multilayer Perceptrons (MLP). 27/12/2020, de pathmind Sitio web: 
+https://wiki.pathmind.com/multilayer-perceptron
 
 
