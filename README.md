@@ -58,22 +58,25 @@ The implementation of these algorithms is explained, as well as the result that 
 # Algorithms used
 
 ## SVM - Support Vector Machines
-A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
+<div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
 A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
 Support vector machines belong to a class of Machine Learning algorithms called kernel methods and are also known as kernel machines.
 Support vector machine training consists of two phases
 * Transform the predictors (input data) into a highly dimensional feature space. In this phase it is enough to specify the kernel; data is never explicitly transformed into feature space. This process is commonly known as the kernel hack.
 * Solve a quadratic optimization problem that fits an optimal hyperplane to classify the transformed characteristics into two classes. The number of transformed features is determined by the number of support vectors. [1]
+</div>
 
 
 ## DTC - Decision Tree Classifier
+<div align="justify">
 In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. As its name implies, it uses a decision model in the form of a tree.
 Although it is a commonly used tool in data mining to derive a strategy to reach a particular goal, it is also widely used in machine learning. A decision tree is drawn upside down with its root at the top. In the image to the left, the bold black text represents an internal node / condition, according to which the tree is divided into branches / edges.
 The end of the branch that is no longer divided is the decision / leaf, in this case, whether the passenger died or survived, represented as red and green text respectively. It is a tree-structured classifier, where the internal nodes represent the characteristics of a data set, the branches represent the decision rules, and each leaf node represents the result.
 In a decision tree, there are two nodes, which are the decision node and the leaf node. Decision nodes are used to make any decision and have multiple branches, while leaf nodes are the result of those decisions and contain no more branches. Decisions or testing are made based on the characteristics of the given data set. [2]
+</div>
 
 ## LR - Logistic regression
-
+<div align="justify">
 Logistic Regression or Logistic Regression is a classification algorithm used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 - 0, yes - no, open - closed, etc.
 
 This binary logistic model is used to estimate the probability of a binary response based on one or more predictor or independent variables. Lets say that the presence of a risk factor increases the probability of a given result by a specific percentage.
@@ -90,8 +93,10 @@ Some of the characteristics that you should consider for this algorithm are the 
 * Remove correlated entries. Like linear regression, the model can be overfitted if it has multiple highly correlated inputs. Let's consider calculating the pairwise correlations between all inputs and eliminating highly correlated inputs.
 
 It cannot converge. The expected probability estimation process may learn that the coefficients do not converge, this can happen if there are many highly correlated entries in your data, or if the data is very sparse. [3]
+</div>
 
 ## MLPC - Multilayer Perceptron Classifier
+<div align="justify">
 A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
 
 Multilayer perceptrons are often applied to supervised learning problems: they train on a set of input-output pairs and learn to model the correlation (or dependencies) between those inputs and outputs. Training involves adjusting the parameters, or the weights and biases, of the model in order to minimize error. Backpropagation is used to make those weigh and bias adjustments relative to the error, and the error itself can be measured in a variety of ways, including by root mean squared error (RMSE). 
@@ -99,6 +104,7 @@ Multilayer perceptrons are often applied to supervised learning problems: they t
 In the forward pass, the signal flow moves from the input layer through the hidden layers to the output layer, and the decision of the output layer is measured against the ground truth labels.
 
 In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function w.r.t. the various weights and biases are back-propagated through the MLP. That act of differentiation gives us a gradient, or a landscape of error, along which the parameters may be adjusted as they move the MLP one step closer to the error minimum. This can be done with any gradient-based optimisation algorithm such as stochastic gradient descent. The network keeps playing that game of tennis until the error can go no lower. This state is known as convergence. [4]
+</div>
 
 # References
 
