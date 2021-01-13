@@ -201,7 +201,7 @@ But that doesn't mean that the other are less poweful, this decision was bases j
 
 # Conclusion
 <div align="justify">
-As a conclusion during the semester of the Mass Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
+As a conclusion during the semester of the Big Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
 
 In this document we present some of the algorithms that we saw during the semester, with this document we have reached a deeper understanding of how algorithms work when using them with large data sets to reach the information we are looking for, by analyzing all these algorithms we realize how efficient each other can be.
 </div>
