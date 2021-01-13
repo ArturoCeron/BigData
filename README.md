@@ -194,7 +194,7 @@ Best method with higher accuracy, less amount of memory needed and best timing: 
 But that doesn't mean that the other are less poweful, this decision was bases just in 10 iterations of the code, many other circumstances can change the decision of choose any other method.
 
 
-#Conclusion
+# Conclusion
 
 As a conclusion during the semester of the Mass Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
 
