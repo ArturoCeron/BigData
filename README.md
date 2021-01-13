@@ -77,8 +77,11 @@ Support vector machine training consists of two phases
 ## DTC - Decision Tree Classifier
 <div align="justify">
 In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. As its name implies, it uses a decision model in the form of a tree.
+
 Although it is a commonly used tool in data mining to derive a strategy to reach a particular goal, it is also widely used in machine learning. A decision tree is drawn upside down with its root at the top. In the image to the left, the bold black text represents an internal node / condition, according to which the tree is divided into branches / edges.
+
 The end of the branch that is no longer divided is the decision / leaf, in this case, whether the passenger died or survived, represented as red and green text respectively. It is a tree-structured classifier, where the internal nodes represent the characteristics of a data set, the branches represent the decision rules, and each leaf node represents the result.
+
 In a decision tree, there are two nodes, which are the decision node and the leaf node. Decision nodes are used to make any decision and have multiple branches, while leaf nodes are the result of those decisions and contain no more branches. Decisions or testing are made based on the characteristics of the given data set. [2]
 </div>
 
@@ -214,7 +217,7 @@ https://www.javatpoint.com/machine-learning-decision-tree-classification-algorit
 [3] Selva Prabhakaran. Logistic Regression – A Complete Tutorial With Examples in R. 23/12/2020, de machine learning plus Sitio web: 
 https://www.machinelearningplus.com/machine-learning/logistic-regression-tutorial-examples-r/
 
-[8] Chris Nicholson. A Beginner's Guide to Multilayer Perceptrons (MLP). 27/12/2020, de pathmind Sitio web: 
+[4] Chris Nicholson. A Beginner's Guide to Multilayer Perceptrons (MLP). 27/12/2020, de pathmind Sitio web: 
 https://wiki.pathmind.com/multilayer-perceptron
 
 
