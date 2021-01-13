@@ -37,12 +37,12 @@ Tijuana, Baja California, al 07 de enero de 2021.
 
 # Index
 
-### - Introduction
-### - Algorithms used
-### - Implementation
-### - Results 
-### - Conclusions
-### - References
+###  Introduction
+###  Algorithms used
+###  Implementation
+###  Results 
+###  Conclusions
+###  References
 
 
 # Introduction
@@ -114,6 +114,7 @@ It cannot converge. The expected probability estimation process may learn that t
 
 ## MLPC - Multilayer Perceptron Classifier
 <div align="justify">
+ 
 A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
 
 Multilayer perceptrons are often applied to supervised learning problems: they train on a set of input-output pairs and learn to model the correlation (or dependencies) between those inputs and outputs. Training involves adjusting the parameters, or the weights and biases, of the model in order to minimize error. Backpropagation is used to make those weigh and bias adjustments relative to the error, and the error itself can be measured in a variety of ways, including by root mean squared error (RMSE). 
@@ -121,6 +122,7 @@ Multilayer perceptrons are often applied to supervised learning problems: they t
 In the forward pass, the signal flow moves from the input layer through the hidden layers to the output layer, and the decision of the output layer is measured against the ground truth labels.
 
 In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function w.r.t. the various weights and biases are back-propagated through the MLP. That act of differentiation gives us a gradient, or a landscape of error, along which the parameters may be adjusted as they move the MLP one step closer to the error minimum. This can be done with any gradient-based optimisation algorithm such as stochastic gradient descent. The network keeps playing that game of tennis until the error can go no lower. This state is known as convergence. [4]
+
 </div>
 
 <p align="center">
