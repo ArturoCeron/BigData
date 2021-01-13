@@ -69,6 +69,10 @@ Support vector machine training consists of two phases
 
 </div>
 
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Project/documentation/SVM.png">
+</p>
+
 
 ## DTC - Decision Tree Classifier
 <div align="justify">
@@ -77,6 +81,11 @@ Although it is a commonly used tool in data mining to derive a strategy to reach
 The end of the branch that is no longer divided is the decision / leaf, in this case, whether the passenger died or survived, represented as red and green text respectively. It is a tree-structured classifier, where the internal nodes represent the characteristics of a data set, the branches represent the decision rules, and each leaf node represents the result.
 In a decision tree, there are two nodes, which are the decision node and the leaf node. Decision nodes are used to make any decision and have multiple branches, while leaf nodes are the result of those decisions and contain no more branches. Decisions or testing are made based on the characteristics of the given data set. [2]
 </div>
+
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Project/documentation/dtc.png">
+</p>
+
 
 ## LR - Logistic regression
 <div align="justify">
@@ -98,6 +107,11 @@ Some of the characteristics that you should consider for this algorithm are the 
 It cannot converge. The expected probability estimation process may learn that the coefficients do not converge, this can happen if there are many highly correlated entries in your data, or if the data is very sparse. [3]
 </div>
 
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Project/documentation/lr.jpg">
+</p>
+
+
 ## MLPC - Multilayer Perceptron Classifier
 <div align="justify">
 A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
@@ -108,6 +122,10 @@ In the forward pass, the signal flow moves from the input layer through the hidd
 
 In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function w.r.t. the various weights and biases are back-propagated through the MLP. That act of differentiation gives us a gradient, or a landscape of error, along which the parameters may be adjusted as they move the MLP one step closer to the error minimum. This can be done with any gradient-based optimisation algorithm such as stochastic gradient descent. The network keeps playing that game of tennis until the error can go no lower. This state is known as convergence. [4]
 </div>
+
+<p align="center">
+<img src="https://github.com/ArturoCeron/BigData/blob/Project/documentation/mlcp.png">
+</p>
 
 # References
 
