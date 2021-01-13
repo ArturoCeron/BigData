@@ -99,6 +99,12 @@ En el perceptrón multicapa se pueden diferenciar una 2 fases:
 Propagación en la que se calcula el resultado de salida de la red desde los valores de entrada hacia delante.
 Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red se asemeje cada vez más al real, este aproximación se realiza mediante la función gradriente del error.[4]
 
+*conclusion 
+Como conclusión durante el semestre de la materia de Datos Masivo, vimos que hay una gran diferencia de modelos para la predicción de datos, al momento de hacer cierto uso de los modelos estos nos mostraran sus ventajas y desventajas, cada modelo dando lo que requerimos con un cierto grado de exactitud en cada predicción.
+
+En este documento presentamos unos de los algoritmos que vimos durante el semestre, con este documento hemos llagado a una compresión más profunda de cómo funcionan los algoritmos  al momento de usarlos con grandes conjuntos de datos para llagar a la información que buscamos, al analizar todos estos algoritmos nos damos cuenta de lo eficiente que puede llegar a hacer uno de otro.
+
+
 
 
 REFERENCIAS
