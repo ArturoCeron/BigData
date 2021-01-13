@@ -182,9 +182,11 @@ Each one of them were highly useful to let us execute the programs, test them, g
 We can also see that the one method that used the most amount of memory was Decision Tree Classifier, and the one that needed less memory was Logistic Regression
 Finally the method with the best timing was Logistic Regression and the worst was Multilayer Perceptron Classifier
 So, based on our tests we can coclude this
+ 
 </div>
 
 Best method with higher accuracy, less amount of memory needed and best timing: **Logistic Regression**
+
 But that doesn't mean that the other are less poweful, this decision was bases just in 10 iterations of the code, many other circumstances can change the decision of choose any other method.
 
 # References
