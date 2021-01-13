@@ -57,7 +57,7 @@ The implementation of these algorithms is explained, as well as the result that 
 
 # Algorithms used
 
-## SVM - Support Vector Machines
+## SVM - Support Vector Machine
 <div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
  
 A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
@@ -87,7 +87,7 @@ In a decision tree, there are two nodes, which are the decision node and the lea
 </p>
 
 
-## LR - Logistic regression
+## LR - Logistic Regression
 <div align="justify">
 Logistic Regression or Logistic Regression is a classification algorithm used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 - 0, yes - no, open - closed, etc.
 
@@ -126,6 +126,66 @@ In the backward pass, using backpropagation and the chain rule of calculus, part
 <p align="center">
 <img src="https://github.com/ArturoCeron/BigData/blob/Project/documentation/mlcp.png">
 </p>
+
+# Implementation
+
+<div align="justify">We only used two technologies
+
+* Scala
+* Spark
+
+We used *Scala* for developing the code needed for the programs, and *Spark* for the libraries that we used in order to read the csv file, get the data, manipulate it, clean it and implement the machine learning methods.
+Each one of them were highly useful to let us execute the programs, test them, get the results and finally compare each one other.
+</div>
+
+# Results
+
+<table class="egt" border="0">
+<tr>
+  <td> Averages </td>
+    <td> Used memory (MB)</td>
+    <td>Time (s)</td>
+    <td> Accuracy (%)</td>
+    <td>Error (%)</td>
+  </tr>
+  <tr>
+    <td>MLCP</td>
+    <td>365.9</td>
+    <td>14.64</td>
+    <td>84.14</td>
+    <td>15.86</td>
+  </tr>
+    <tr>
+    <td>LR</td>
+    <td>299.6</td>
+    <td>8.42</td>
+    <td>84.27</td>
+    <td>15.73</td>
+  </tr>
+    <tr>
+    <td>SVM</td>
+    <td>351.4</td>
+    <td>11.78</td>
+    <td>84.07</td>
+    <td>15.93</td>
+  </tr>
+   <tr>
+    <td>DTC</td>
+    <td>377.3</td>
+    <td>10.03</td>
+    <td>84.19</td>
+    <td>15.81</td>
+  </tr>
+</table>
+
+<div align="justify">As we can see, the results show us that the most accurate method was Logistic Regression, followed by Decision Tree Classifier and the ones with the highest error rate were Support Vector Machine and Multilayer Perceptron Classifier.
+We can also see that the one method that used the most amount of memory was Decision Tree Classifier, and the one that needed less memory was Logistic Regression
+Finally the method with the best timing was Logistic Regression and the worst was Multilayer Perceptron Classifier
+So, based on our tests we can coclude this
+</div>
+
+Best method with higher accuracy, less amount of memory needed and best timing: **Logistic Regression**
+But that doesn't mean that the other are less poweful, this decision was bases just in 10 iterations of the code, many other circumstances can change the decision of choose any other method.
 
 # References
 
