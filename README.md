@@ -178,9 +178,13 @@ Each one of them were highly useful to let us execute the programs, test them, g
   </tr>
 </table>
 
-<div align="justify">As we can see, the results show us that the most accurate method was Logistic Regression, followed by Decision Tree Classifier and the ones with the highest error rate were Support Vector Machine and Multilayer Perceptron Classifier.
-We can also see that the one method that used the most amount of memory was Decision Tree Classifier, and the one that needed less memory was Logistic Regression
-Finally the method with the best timing was Logistic Regression and the worst was Multilayer Perceptron Classifier
+<div align="justify">
+As we can see, the results show us that the most accurate method was Logistic Regression, followed by Decision Tree Classifier and the ones with the highest error rate were Support Vector Machine and Multilayer Perceptron Classifier.
+ 
+We can also see that the one method that used the most amount of memory was Decision Tree Classifier, and the one that needed less memory was Logistic Regression.
+
+Finally the method with the best timing was Logistic Regression and the worst was Multilayer Perceptron Classifier.
+
 So, based on our tests we can coclude this
  
 </div>
