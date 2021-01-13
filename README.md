@@ -193,6 +193,13 @@ Best method with higher accuracy, less amount of memory needed and best timing: 
 
 But that doesn't mean that the other are less poweful, this decision was bases just in 10 iterations of the code, many other circumstances can change the decision of choose any other method.
 
+
+#Conclusion
+
+As a conclusion during the semester of the Mass Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
+
+In this document we present some of the algorithms that we saw during the semester, with this document we have reached a deeper understanding of how algorithms work when using them with large data sets to reach the information we are looking for, by analyzing all these algorithms we realize how efficient each other can be.
+
 # References
 
 [1] JavaTpoint. (2018). Support Vector Machine Algorithm. 23/12/2020, de JavaTpoint Sitio web: 
