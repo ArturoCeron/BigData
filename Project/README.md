@@ -63,7 +63,7 @@ The implementation of these algorithms is explained, as well as the result that 
 
 # Algorithms used <a name="algorithms"></a>
 
-## SVM - Support Vector Machine <a name="svm></a>
+## SVM - Support Vector Machine <a name="svm"></a>
 <div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
  
 A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
