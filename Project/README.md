@@ -37,12 +37,18 @@ Tijuana, Baja California, al 07 de enero de 2021.
 
 # Index
 
-###  [Introduction](#introduction)
-###  [Algorithms used](#algorithms)
-###  [Implementation](#implementation)
-###  [Results](#results)
-###  [Conclusion](#conclusion)
-###  [References](#references)
+### [Introduction](#introduction)
+### [Algorithms used](#algorithms)
+
+ - [SVM](#svm)
+ - [DTC](#dtc)
+ - [LR](#lr)
+ - [MLPC](#mlpc)
+ 
+### [Implementation](#implementation)
+### [Results](#results)
+### [Conclusion](#conclusion)
+### [References](#references)
 
 
 # Introduction <a name="introduction"></a>
@@ -57,7 +63,7 @@ The implementation of these algorithms is explained, as well as the result that 
 
 # Algorithms used <a name="algorithms"></a>
 
-## SVM - Support Vector Machine
+## SVM - Support Vector Machine <a name="svm></a>
 <div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
  
 A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
@@ -74,7 +80,7 @@ Support vector machine training consists of two phases
 </p>
 
 
-## DTC - Decision Tree Classifier
+## DTC - Decision Tree Classifier <a name="dtc"></a>
 <div align="justify">
 In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. As its name implies, it uses a decision model in the form of a tree.
 
@@ -90,7 +96,7 @@ In a decision tree, there are two nodes, which are the decision node and the lea
 </p>
 
 
-## LR - Logistic Regression
+## LR - Logistic Regression <a name="lr"></a>
 <div align="justify">
 Logistic Regression or Logistic Regression is a classification algorithm used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 - 0, yes - no, open - closed, etc.
 
@@ -115,7 +121,7 @@ It cannot converge. The expected probability estimation process may learn that t
 </p>
 
 
-## MLPC - Multilayer Perceptron Classifier
+## MLPC - Multilayer Perceptron Classifier <a name="mlpc"></a>
 <div align="justify">
  
 A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
