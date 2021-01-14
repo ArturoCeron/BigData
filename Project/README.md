@@ -37,15 +37,15 @@ Tijuana, Baja California, al 07 de enero de 2021.
 
 # Index
 
-###  Introduction
-###  Algorithms used
-###  Implementation
-###  Results 
-###  Conclusions
-###  References
+###  [Introduction](#introduction)
+###  [Algorithms used](#algorithms)
+###  [Implementation](#implementation)
+###  [Results](#results)
+###  [Conclusion](#conclusion)
+###  [References](#references)
 
 
-# Introduction
+# Introduction <a name="introduction"></a>
 
 <div align="justify">This document specifies the analysis and development of the final project of unit 4 of the matter of big data, which the objective of this final project is to compare the Machine Learning performance algorithms that were seen during the semester.
 The Bank Marketing data set obtained from the following source will be used
@@ -55,7 +55,7 @@ The implementation of these algorithms is explained, as well as the result that 
 
 
 
-# Algorithms used
+# Algorithms used <a name="algorithms"></a>
 
 ## SVM - Support Vector Machine
 <div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
@@ -132,7 +132,7 @@ In the backward pass, using backpropagation and the chain rule of calculus, part
 <img src="https://github.com/ArturoCeron/BigData/blob/Project/Project/documentation/mlcp.png">
 </p>
 
-# Implementation
+# Implementation <a name="implementation"></a>
 
 <div align="justify">We only used two technologies
 
@@ -142,8 +142,8 @@ In the backward pass, using backpropagation and the chain rule of calculus, part
 We used *Scala* for developing the code needed for the programs, and *Spark* for the libraries that we used in order to read the csv file, get the data, manipulate it, clean it and implement the machine learning methods.
 Each one of them were highly useful to let us execute the programs, test them, get the results and finally compare each one other.
 </div>
-
-# Results
+ 
+# Results <a name="results"></a>
 
 <table class="egt" border="0">
 <tr>
@@ -198,14 +198,14 @@ Best method with higher accuracy, less amount of memory needed and best timing: 
 But that doesn't mean that the others are less powerful, this decision was based just in 10 iterations of the code, many other circumstances can change the decision to choose any other method.
 
 
-# Conclusion
+# Conclusion <a name="conclusion"></a>
 <div align="justify">
 As a conclusion during the semester of the Big Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
 
 In this document we present some of the algorithms that we saw during the semester, with this document we have reached a deeper understanding of how algorithms work when using them with large data sets to reach the information we are looking for, by analyzing all these algorithms we realize how efficient each other can be.
 </div>
 
-# References
+# References <a name="references"></a>
 
 [1] JavaTpoint. (2018). Support Vector Machine Algorithm. 23/12/2020, de JavaTpoint Sitio web: 
 https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
