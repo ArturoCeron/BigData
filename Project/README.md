@@ -37,7 +37,7 @@ Tijuana, Baja California, al 07 de enero de 2021.
 
 # Index
 
-### [Introduction](#introduction)
+### [Introduction](#intro)
 ### [Algorithms used](#algorithms)
 
  - [SVM](#svm)
@@ -45,10 +45,10 @@ Tijuana, Baja California, al 07 de enero de 2021.
  - [LR](#lr)
  - [MLPC](#mlpc)
  
-### [Implementation](#implementation)
-### [Results](#results)
-### [Conclusion](#conclusion)
-### [References](#references)
+### [Implementation](#implement)
+### [Results](#result)
+### [Conclusion](#conclusions)
+### [References](#reference)
 
 
 ## Introduction <a name="introduction"></a>
