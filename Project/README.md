@@ -51,7 +51,7 @@ Tijuana, Baja California, al 07 de enero de 2021.
 ### [References](#reference)
 
 
-## Introduction <a name="introduction"></a>
+## Introduction <a name="intro"></a>
 
 <div align="justify">
 This document specifies the analysis and development of the final project of unit 4 of the matter of big data, which the objective of this final project is to compare the Machine Learning performance algorithms that were seen during the semester.
