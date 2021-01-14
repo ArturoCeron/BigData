@@ -60,5 +60,5 @@ println("Cluster Centers: ")
 model.clusterCenters.foreach(println)
 ```
 <p align="center">
-<img src="https://github.com/ArturoCeron/BigData/blob/Unidad_3/Evaluation/results.PNG">
+<img src="https://github.com/ArturoCeron/BigData/blob/Unidad_3/Unit_3/Evaluation/results.PNG">
 </p>
