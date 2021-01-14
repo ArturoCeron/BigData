@@ -51,19 +51,20 @@ Tijuana, Baja California, al 07 de enero de 2021.
 ### [References](#references)
 
 
-# Introduction <a name="introduction"></a>
+## Introduction <a name="introduction"></a>
 
-<div align="justify">This document specifies the analysis and development of the final project of unit 4 of the matter of big data, which the objective of this final project is to compare the Machine Learning performance algorithms that were seen during the semester.
+<div align="justify">
+This document specifies the analysis and development of the final project of unit 4 of the matter of big data, which the objective of this final project is to compare the Machine Learning performance algorithms that were seen during the semester.
 The Bank Marketing data set obtained from the following source will be used
+ 
 <div align="center"> https://archive.ics.uci.edu/ml/datasets/Bank+Marketing </div>
+
 The implementation of these algorithms is explained, as well as the result that was reached, through a tabulation to better visualize the performance of each one of them.
 </div>
 
+## Algorithms used <a name="algorithms"></a>
 
-
-# Algorithms used <a name="algorithms"></a>
-
-## SVM - Support Vector Machine <a name="svm"></a>
+### SVM - Support Vector Machine <a name="svm"></a>
 <div align="justify">A support vector machine (SVM) is a supervised learning algorithm that can be used for binary classification or regression. Support vector machines are very popular in applications such as natural language processing, speech, image recognition, and computer vision.
  
 A support vector machine constructs an optimal hyperplane in the form of a decision surface, so that the margin of separation between the two classes in the data is maximally widened. Support vectors refer to a small subset of the training observations that are used as support for the optimal location of the decision surface.
@@ -80,7 +81,7 @@ Support vector machine training consists of two phases
 </p>
 
 
-## DTC - Decision Tree Classifier <a name="dtc"></a>
+### DTC - Decision Tree Classifier <a name="dtc"></a>
 <div align="justify">
 In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. As its name implies, it uses a decision model in the form of a tree.
 
@@ -96,7 +97,7 @@ In a decision tree, there are two nodes, which are the decision node and the lea
 </p>
 
 
-## LR - Logistic Regression <a name="lr"></a>
+### LR - Logistic Regression <a name="lr"></a>
 <div align="justify">
 Logistic Regression or Logistic Regression is a classification algorithm used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 - 0, yes - no, open - closed, etc.
 
@@ -121,7 +122,7 @@ It cannot converge. The expected probability estimation process may learn that t
 </p>
 
 
-## MLPC - Multilayer Perceptron Classifier <a name="mlpc"></a>
+### MLPC - Multilayer Perceptron Classifier <a name="mlpc"></a>
 <div align="justify">
  
 A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
@@ -138,7 +139,7 @@ In the backward pass, using backpropagation and the chain rule of calculus, part
 <img src="https://github.com/ArturoCeron/BigData/blob/Project/Project/documentation/mlcp.png">
 </p>
 
-# Implementation <a name="implementation"></a>
+## Implementation <a name="implementation"></a>
 
 <div align="justify">We only used two technologies
 
@@ -149,7 +150,7 @@ We used *Scala* for developing the code needed for the programs, and *Spark* for
 Each one of them were highly useful to let us execute the programs, test them, get the results and finally compare each one other.
 </div>
  
-# Results <a name="results"></a>
+## Results <a name="results"></a>
 
 <table class="egt" border="0">
 <tr>
@@ -204,14 +205,14 @@ Best method with higher accuracy, less amount of memory needed and best timing: 
 But that doesn't mean that the others are less powerful, this decision was based just in 10 iterations of the code, many other circumstances can change the decision to choose any other method.
 
 
-# Conclusion <a name="conclusion"></a>
+## Conclusion <a name="conclusion"></a>
 <div align="justify">
 As a conclusion during the semester of the Big Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
 
 In this document we present some of the algorithms that we saw during the semester, with this document we have reached a deeper understanding of how algorithms work when using them with large data sets to reach the information we are looking for, by analyzing all these algorithms we realize how efficient each other can be.
 </div>
 
-# References <a name="references"></a>
+## References <a name="references"></a>
 
 [1] JavaTpoint. (2018). Support Vector Machine Algorithm. 23/12/2020, de JavaTpoint Sitio web: 
 https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
