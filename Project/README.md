@@ -139,7 +139,7 @@ In the backward pass, using backpropagation and the chain rule of calculus, part
 <img src="https://github.com/ArturoCeron/BigData/blob/Project/Project/documentation/mlcp.png">
 </p>
 
-## Implementation <a name="implementation"></a>
+## Implementation <a name="implement"></a>
 
 <div align="justify">We only used two technologies
 
@@ -150,7 +150,7 @@ We used *Scala* for developing the code needed for the programs, and *Spark* for
 Each one of them were highly useful to let us execute the programs, test them, get the results and finally compare each one other.
 </div>
  
-## Results <a name="results"></a>
+## Results <a name="result"></a>
 
 <table class="egt" border="0">
 <tr>
@@ -205,14 +205,14 @@ Best method with higher accuracy, less amount of memory needed and best timing: 
 But that doesn't mean that the others are less powerful, this decision was based just in 10 iterations of the code, many other circumstances can change the decision to choose any other method.
 
 
-## Conclusion <a name="conclusion"></a>
+## Conclusion <a name="conclusions"></a>
 <div align="justify">
 As a conclusion during the semester of the Big Data subject, we saw that there is a great difference in models for data prediction, when making certain use of the models they will show us their advantages and disadvantages, each model giving what we require with a certain degree of accuracy in each prediction.
 
 In this document we present some of the algorithms that we saw during the semester, with this document we have reached a deeper understanding of how algorithms work when using them with large data sets to reach the information we are looking for, by analyzing all these algorithms we realize how efficient each other can be.
 </div>
 
-## References <a name="references"></a>
+## References <a name="reference"></a>
 
 [1] JavaTpoint. (2018). Support Vector Machine Algorithm. 23/12/2020, de JavaTpoint Sitio web: 
 https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
